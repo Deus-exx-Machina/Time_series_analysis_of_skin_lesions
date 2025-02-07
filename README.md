@@ -6,4 +6,7 @@ Derm12345 part is here: https://huggingface.co/datasets/abdurrahimyilmaz/derm123
 
 DermatoLlama 1.0 is here: https://huggingface.co/abdurrahimyilmaz/DermatoLlama-1.0
 
-All dataset will be published before 7 February 2025.
+### Data Download
+| DermaSynth Dataset | Size |
+| --- | ---: |
+| [derma_synth_92k.json](dataset/derma_synth_92k.json) | 52.4 MiB |
