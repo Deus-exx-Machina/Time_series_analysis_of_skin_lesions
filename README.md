@@ -2,11 +2,19 @@
 
 [![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg)](https://github.com/abdurrahimyilmaz/DermaSynth/DATA_LICENSE)
 
-Derm12345 part is here: https://huggingface.co/datasets/abdurrahimyilmaz/derm12345_synthetic_data
+## Data Download
 
-DermatoLlama 1.0 is here: https://huggingface.co/abdurrahimyilmaz/DermatoLlama-1.0
+<p align="center">
+    <img src="images/word_wheel_figure.png" width="80%"> <br>
+ 
+  *The most common 20 root verb-noun pairs of question set is shown in Figure 2 which indicates the question set is diverse. Prompts spanned a wide range of question types—such as “What does this lesion look like?” and “Could this be X ?”—and were manually screened and selected for clarity and medical relevance.*
+</p>
 
-### Data Download
 | DermaSynth Dataset | Size |
 | --- | ---: |
 | [derma_synth_92k.json](dataset/derma_synth_92k.json) | 52.4 MiB |
+
+## Available Datasets
+
+- **Derm12345**: [Hugging Face Dataset](https://huggingface.co/datasets/abdurrahimyilmaz/derm12345_synthetic_data)
+- **DermatoLlama 1.0** (Finetuned Model): [Hugging Face Model](https://huggingface.co/abdurrahimyilmaz/DermatoLlama-1.0)
