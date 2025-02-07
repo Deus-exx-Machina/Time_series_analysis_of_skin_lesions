@@ -14,7 +14,7 @@
 | --- | ---: |
 | [derma_synth_92k.json](dataset/derma_synth_92k.json) | 52.4 MiB |
 
-## Available Datasets
+## Available Resources
 
 - **Derm12345**: [Hugging Face Dataset](https://huggingface.co/datasets/abdurrahimyilmaz/derm12345_synthetic_data)
 - **DermatoLlama 1.0** (Finetuned Model): [Hugging Face Model](https://huggingface.co/abdurrahimyilmaz/DermatoLlama-1.0)
