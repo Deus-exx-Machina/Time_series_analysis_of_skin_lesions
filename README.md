@@ -25,7 +25,7 @@ Please cite the paper, if you use the data and code in your research:
 ```bibtex
 @article{yilmaz2025dermasynth,
   title={DermaSynth: Rich Synthetic Image-Text Pairs Using Open Access Dermatology Datasets},
-  author={Yilmaz, Abdurrahim and Yuceyalcin, Furkan and Gokyayla, Ece and Choi, Donghee and Demircali, Ozan Erdem Ali Anil and Varol, Rahmetullah and Kirabali, Ufuk Gorkem and Gencoglan, Gulsum and Posma, Joram M and Temelkuran, Burak},
+  author={Yilmaz, Abdurrahim and Yuceyalcin, Furkan and Gokyayla, Ece and Choi, Donghee and Erdem, Ozan and Demircali, Ali Anil and Varol, Rahmetullah and Kirabali, Ufuk Gorkem and Gencoglan, Gulsum and Posma, Joram M and Temelkuran, Burak},
   journal={arXiv preprint arXiv:2502.00196},
   year={2025}
 }
