@@ -1,0 +1,10 @@
+{
+    "image_id": "DERM_225210.jpg",
+    "image_path": "../../datasets/derm12345/DERM_225210.jpg",
+    "q1_general_response": "{\"answer\": \"Based on the image, other diseases to rule out include seborrheic keratosis, verruca vulgaris (wart), pigmented basal cell carcinoma, and melanoma.\"}",
+    "q2_dataset_response": "{\"answer\": \"Seborrheic keratosis\"}",
+    "q1_general_question": "What other diseases should be ruled out based on the lesion/disease's appearance?",
+    "q2_dataset_question": "What type of skin condition does this lesion/disease most closely resemble?",
+    "q1_general_prompt": "***** INSTRUCTIONS *****\nYou are a dermatologist examining a lesion/skin disease image.\n\n        f\"You have no direct access to the patient's metadata. \"\n        f\"Although some context is provided below, do NOT reference or rely on it in your answer. \"\n        f\"Base your answer solely on the visible characteristics of the lesion/skin disease in the image.\n\"\n        f\"Provide your answer in the exact format specified below.\n\n\"\n        f\"***** CONTEXT (FOR INTERNAL REFERENCE ONLY) *****\n\"\n        f\"{metadata_context}\n\n\"\n        ***** QUESTION *****\nWhat other diseases should be ruled out based on the lesion/disease's appearance?\n\n***** RESPONSE FORMAT *****\n{\"answer\": \"<answer>\"}",
+    "q2_dataset_prompt": "***** INSTRUCTIONS *****\nYou are a dermatologist examining a lesion/skin disease image.\n\n        f\"You have no direct access to the patient's metadata. \"\n        f\"Although some context is provided below, do NOT reference or rely on it in your answer. \"\n        f\"Base your answer solely on the visible characteristics of the lesion/skin disease in the image.\n\"\n        f\"Provide your answer in the exact format specified below.\n\n\"\n        f\"***** CONTEXT (FOR INTERNAL REFERENCE ONLY) *****\n\"\n        f\"{metadata_context}\n\n\"\n        ***** QUESTION *****\nWhat type of skin condition does this lesion/disease most closely resemble?\n\n***** RESPONSE FORMAT *****\n{\"answer\": \"<answer>\"}"
+}

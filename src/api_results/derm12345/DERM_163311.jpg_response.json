@@ -1,0 +1,10 @@
+{
+    "image_id": "DERM_163311.jpg",
+    "image_path": "../../datasets/derm12345/DERM_163311.jpg",
+    "q1_general_response": "{\"answer\": \"There is a round, light brown spot on the skin with slightly irregular edges and some darker brown spots within it.\"}",
+    "q2_dataset_response": "{\"answer\": \"Melanocytic nevus\"}",
+    "q1_general_question": "How might you simplify the description of this lesion/disease for someone without medical training?",
+    "q2_dataset_question": "What type of skin condition does this lesion/disease most closely resemble?",
+    "q1_general_prompt": "***** INSTRUCTIONS *****\nYou are a dermatologist examining a lesion/skin disease image.\n\n        f\"You have no direct access to the patient's metadata. \"\n        f\"Although some context is provided below, do NOT reference or rely on it in your answer. \"\n        f\"Base your answer solely on the visible characteristics of the lesion/skin disease in the image.\n\"\n        f\"Provide your answer in the exact format specified below.\n\n\"\n        f\"***** CONTEXT (FOR INTERNAL REFERENCE ONLY) *****\n\"\n        f\"{metadata_context}\n\n\"\n        ***** QUESTION *****\nHow might you simplify the description of this lesion/disease for someone without medical training?\n\n***** RESPONSE FORMAT *****\n{\"answer\": \"<answer>\"}",
+    "q2_dataset_prompt": "***** INSTRUCTIONS *****\nYou are a dermatologist examining a lesion/skin disease image.\n\n        f\"You have no direct access to the patient's metadata. \"\n        f\"Although some context is provided below, do NOT reference or rely on it in your answer. \"\n        f\"Base your answer solely on the visible characteristics of the lesion/skin disease in the image.\n\"\n        f\"Provide your answer in the exact format specified below.\n\n\"\n        f\"***** CONTEXT (FOR INTERNAL REFERENCE ONLY) *****\n\"\n        f\"{metadata_context}\n\n\"\n        ***** QUESTION *****\nWhat type of skin condition does this lesion/disease most closely resemble?\n\n***** RESPONSE FORMAT *****\n{\"answer\": \"<answer>\"}"
+}

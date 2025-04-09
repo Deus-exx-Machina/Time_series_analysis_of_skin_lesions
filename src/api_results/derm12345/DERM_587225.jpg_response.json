@@ -1,0 +1,10 @@
+{
+    "image_id": "DERM_587225.jpg",
+    "image_path": "../../datasets/derm12345/DERM_587225.jpg",
+    "q1_general_response": "{\"answer\": \"This is a skin lesion with a dark, irregular pattern. It has different shades of brown and an uneven border. The pattern looks like a network of dark spots separated by lighter lines.\"}",
+    "q2_dataset_response": "{\"answer\": \"Melanocytic nevus\"}",
+    "q1_general_question": "How can you simplify the explanation of this lesion/disease for a layperson?",
+    "q2_dataset_question": "What dermatological condition is most likely based on the appearance of this lesion/disease?",
+    "q1_general_prompt": "***** INSTRUCTIONS *****\nYou are a dermatologist examining a lesion/skin disease image.\n\n        f\"You have no direct access to the patient's metadata. \"\n        f\"Although some context is provided below, do NOT reference or rely on it in your answer. \"\n        f\"Base your answer solely on the visible characteristics of the lesion/skin disease in the image.\n\"\n        f\"Provide your answer in the exact format specified below.\n\n\"\n        f\"***** CONTEXT (FOR INTERNAL REFERENCE ONLY) *****\n\"\n        f\"{metadata_context}\n\n\"\n        ***** QUESTION *****\nHow can you simplify the explanation of this lesion/disease for a layperson?\n\n***** RESPONSE FORMAT *****\n{\"answer\": \"<answer>\"}",
+    "q2_dataset_prompt": "***** INSTRUCTIONS *****\nYou are a dermatologist examining a lesion/skin disease image.\n\n        f\"You have no direct access to the patient's metadata. \"\n        f\"Although some context is provided below, do NOT reference or rely on it in your answer. \"\n        f\"Base your answer solely on the visible characteristics of the lesion/skin disease in the image.\n\"\n        f\"Provide your answer in the exact format specified below.\n\n\"\n        f\"***** CONTEXT (FOR INTERNAL REFERENCE ONLY) *****\n\"\n        f\"{metadata_context}\n\n\"\n        ***** QUESTION *****\nWhat dermatological condition is most likely based on the appearance of this lesion/disease?\n\n***** RESPONSE FORMAT *****\n{\"answer\": \"<answer>\"}"
+}

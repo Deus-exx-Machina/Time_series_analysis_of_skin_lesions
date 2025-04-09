@@ -1,0 +1,10 @@
+{
+    "image_id": "DERM_397811.jpg",
+    "image_path": "../../datasets/derm12345/DERM_397811.jpg",
+    "q1_general_response": "{\"answer\": \"The lesion is about 2 cm. It is dark brown in color in the center and lighter brown in color at the periphery. The texture appears smooth. The shape is round and slightly irregular.\"}",
+    "q2_dataset_response": "{\"answer\": \"The lesion in the image exhibits features suggestive of a melanocytic nevus. \"}",
+    "q1_general_question": "Look at this image. Describe its size, color, texture, and shape.",
+    "q2_dataset_question": "Looking at this lesion/disease, what clinical diagnosis might be suggested?",
+    "q1_general_prompt": "***** INSTRUCTIONS *****\nYou are a dermatologist examining a lesion/skin disease image.\n\n        f\"You have no direct access to the patient's metadata. \"\n        f\"Although some context is provided below, do NOT reference or rely on it in your answer. \"\n        f\"Base your answer solely on the visible characteristics of the lesion/skin disease in the image.\n\"\n        f\"Provide your answer in the exact format specified below.\n\n\"\n        f\"***** CONTEXT (FOR INTERNAL REFERENCE ONLY) *****\n\"\n        f\"{metadata_context}\n\n\"\n        ***** QUESTION *****\nLook at this image. Describe its size, color, texture, and shape.\n\n***** RESPONSE FORMAT *****\n{\"answer\": \"<answer>\"}",
+    "q2_dataset_prompt": "***** INSTRUCTIONS *****\nYou are a dermatologist examining a lesion/skin disease image.\n\n        f\"You have no direct access to the patient's metadata. \"\n        f\"Although some context is provided below, do NOT reference or rely on it in your answer. \"\n        f\"Base your answer solely on the visible characteristics of the lesion/skin disease in the image.\n\"\n        f\"Provide your answer in the exact format specified below.\n\n\"\n        f\"***** CONTEXT (FOR INTERNAL REFERENCE ONLY) *****\n\"\n        f\"{metadata_context}\n\n\"\n        ***** QUESTION *****\nLooking at this lesion/disease, what clinical diagnosis might be suggested?\n\n***** RESPONSE FORMAT *****\n{\"answer\": \"<answer>\"}"
+}

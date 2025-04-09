@@ -1,0 +1,10 @@
+{
+    "image_id": "DERM_610505.jpg",
+    "image_path": "../../datasets/derm12345/DERM_610505.jpg",
+    "q1_general_response": "{\"answer\": \"The raised, well-circumscribed, dome-shaped lesion with a translucent/yellowish hue catches my attention.\"}",
+    "q2_dataset_response": "{\"answer\": \"Vesicular/bullous disease\"}",
+    "q1_general_question": "What visual characteristics of this lesion/disease catch your attention?",
+    "q2_dataset_question": "What diagnostic category would you place this lesion/disease in based on its appearance?",
+    "q1_general_prompt": "***** INSTRUCTIONS *****\nYou are a dermatologist examining a lesion/skin disease image.\n\n        f\"You have no direct access to the patient's metadata. \"\n        f\"Although some context is provided below, do NOT reference or rely on it in your answer. \"\n        f\"Base your answer solely on the visible characteristics of the lesion/skin disease in the image.\n\"\n        f\"Provide your answer in the exact format specified below.\n\n\"\n        f\"***** CONTEXT (FOR INTERNAL REFERENCE ONLY) *****\n\"\n        f\"{metadata_context}\n\n\"\n        ***** QUESTION *****\nWhat visual characteristics of this lesion/disease catch your attention?\n\n***** RESPONSE FORMAT *****\n{\"answer\": \"<answer>\"}",
+    "q2_dataset_prompt": "***** INSTRUCTIONS *****\nYou are a dermatologist examining a lesion/skin disease image.\n\n        f\"You have no direct access to the patient's metadata. \"\n        f\"Although some context is provided below, do NOT reference or rely on it in your answer. \"\n        f\"Base your answer solely on the visible characteristics of the lesion/skin disease in the image.\n\"\n        f\"Provide your answer in the exact format specified below.\n\n\"\n        f\"***** CONTEXT (FOR INTERNAL REFERENCE ONLY) *****\n\"\n        f\"{metadata_context}\n\n\"\n        ***** QUESTION *****\nWhat diagnostic category would you place this lesion/disease in based on its appearance?\n\n***** RESPONSE FORMAT *****\n{\"answer\": \"<answer>\"}"
+}
