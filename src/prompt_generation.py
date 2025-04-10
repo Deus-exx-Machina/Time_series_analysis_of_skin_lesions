@@ -39,7 +39,6 @@ def sample_prompt(prompts: list) -> tuple:
 
     return question_type["question_type"], variation
 
-
 def prepare_metadata_derm12345(row: pd.Series) -> str:
     """Prepare metadata string for the DERM12345 dataset"""
     metadata_context = (
@@ -159,9 +158,9 @@ def prepare_metadata_scin_clinical(row: pd.Series) -> str:
 
     return metadata_context
 
-
 def prepare_api_prompt(
-    metadata_context: str, prompt_text: str, question_type: str
+    #metadata_context: str, 
+    prompt_text: str, question_type: str
 ) -> str:
     """
     Function to prepare API prompt with metadata and question text.
@@ -169,12 +168,16 @@ def prepare_api_prompt(
     prompt = (
         f"***** INSTRUCTIONS *****\n"
         f"You are a dermatologist examining a lesion/skin disease image.\n"
+
+        '''
         f"You have no direct access to the patient's metadata. "
         f"Although some context is provided below, do NOT reference or rely on it in your answer. "
         f"Base your answer solely on the visible characteristics of the lesion/skin disease in the image.\n"
         f"Provide your answer in the exact format specified below.\n\n"
         f"***** CONTEXT (FOR INTERNAL REFERENCE ONLY) *****\n"
         f"{metadata_context}\n\n"
+        '''
+
         f"***** QUESTION *****\n"
         f"{prompt_text}\n\n"
         f"***** RESPONSE FORMAT *****\n"
@@ -188,7 +191,8 @@ def prepare_api_prompt(
 
 
 def generate_prompts_dataset(
-    metadata: pd.DataFrame, prompt_samples: dict, dataset: str, dataset_path: str
+    metadata: pd.DataFrame, 
+    prompt_samples: dict, dataset: str, dataset_path: str
 ) -> list:
     """
     Generate prompts for each image in the dataset.
@@ -218,8 +222,10 @@ def generate_prompts_dataset(
         raise ValueError("Invalid dataset name. Please provide a valid dataset name.")
 
     for idx, row in metadata.iterrows():
+        '''
         # Metadata for the current image
         metadata_context = prepare_metadata(row)
+        '''
 
         # Sample a general question
         general_question_type, general_prompt = sample_prompt(prompt_samples["general"])
@@ -232,9 +238,15 @@ def generate_prompts_dataset(
             image_id = row["image_id"]
             general_prompt_filled = general_prompt
             dataset_prompt_filled = dataset_prompt
+            '''
             image_path = os.path.join(
                 dataset_path, "train", row["label"], (row["image_id"] + ".jpg")
             )
+            '''
+            image_path = os.path.join(
+                dataset_path, (row["image_id"])
+            )
+            
 
         elif dataset == "bcn20000":
             """
@@ -311,12 +323,12 @@ def generate_prompts_dataset(
 
         # Prepare API-ready requests
         general_api_prompt = prepare_api_prompt(
-            metadata_context,
+            #metadata_context,
             general_prompt_filled,
             general_question_type,
         )
         dataset_api_prompt = prepare_api_prompt(
-            metadata_context,
+            #metadata_context,
             dataset_prompt_filled,
             dataset_question_type,
         )

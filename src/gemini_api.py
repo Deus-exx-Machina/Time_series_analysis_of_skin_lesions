@@ -1,8 +1,9 @@
 import logging
 
 import base64
-import google.generativeai as genai
+from google import genai
 from io import BytesIO
+from PIL import Image
 
 LOGGER = logging.getLogger(__name__)
 
@@ -17,8 +18,8 @@ class GeminiAPIHandler:
         - model_name: str - The model to use (default: "gemini-2.0-flash-exp").
         """
         self.api_key = api_key
-        genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel(model_name=model_name)
+        self.client = genai.Client(api_key=api_key)
+        self.model = model_name
 
     def generate_text(self, prompt):
         """
@@ -31,13 +32,16 @@ class GeminiAPIHandler:
         - str - The generated text.
         """
         try:
-            response = self.model.generate_content(prompt)
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt
+            )
             return response.text
         except Exception as e:
             print(f"Error generating text: {e}")
             return None
 
-    def generate_from_image(self, image_path, prompt):
+    def generate_from_image_path(self, image_path, prompt):
         """
         Generate content based on an image and a text prompt.
 
@@ -48,15 +52,12 @@ class GeminiAPIHandler:
         Returns:
         - str: The generated response text.
         """
-        with open(image_path, "rb") as img_file:
-            image_content = img_file.read()
+        image = image.open(image_path)
 
-        image_data = {
-            "mime_type": "image/jpg",
-            "data": base64.b64encode(image_content).decode("utf-8"),
-        }
-
-        response = self.model.generate_content([image_data, prompt])
+        response = self.client.models.generate_content(
+            model=self.model,
+            contents=[image, prompt]
+        )
         return response.text
 
     def generate_from_pil_image(self, pil_image, prompt):
@@ -82,14 +83,16 @@ class GeminiAPIHandler:
             )
             pil_image = pil_image.convert("RGB")
 
+        # Keep the .jpeg format in memory and retrieve it as a byte string for faster processing
         with BytesIO() as img_buffer:
             pil_image.save(img_buffer, format="JPEG")
-            image_data = {
-                "mime_type": "image/jpeg",
-                "data": base64.b64encode(img_buffer.getvalue()).decode("utf-8"),
-            }
-
-        response = self.model.generate_content([image_data, prompt])
+            image_bytes = img_buffer.getvalue()
+        image = Image.open(BytesIO(image_bytes))
+        
+        response = self.client.models.generate_content(
+            model=self.model,
+            contents=[image, prompt]
+        )
         return response.text
 
 
@@ -97,7 +100,7 @@ if __name__ == "__main__":
     import os
     from dotenv import load_dotenv
 
-    load_dotenv()
+    load_dotenv(dotenv_path=f"../.env")
 
     gemini = GeminiAPIHandler(api_key=os.getenv("GEMINI_API_KEY"))
 
