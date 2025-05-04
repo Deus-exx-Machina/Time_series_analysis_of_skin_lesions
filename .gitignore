@@ -1,4 +1,5 @@
 # .gitignore
 __pycache__/
 api_requests/
+api_results/
 .env
