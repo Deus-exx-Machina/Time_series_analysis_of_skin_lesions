@@ -1,6 +1,7 @@
 # .gitignore
 __pycache__/
 ../datasets/
+api_cls/
 api_requests/
 api_results/
 .env
