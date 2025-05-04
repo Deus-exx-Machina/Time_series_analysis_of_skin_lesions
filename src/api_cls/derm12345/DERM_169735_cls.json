@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_169735",
+    "image_path": "../../datasets/derm12345/DERM_169735.jpg",
+    "response": "melanocytic benign - lentigo - solar lentigo - sl\n",
+    "super_class_pred": "melanocytic benign",
+    "super_class_true": "nonmelanocytic benign",
+    "main_class_pred": "melanocytic benign - lentigo",
+    "main_class_true": "nonmelanocytic benign - keratinocytic",
+    "label_pred": "sl",
+    "label_true": "sk"
+}

@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_188685",
+    "image_path": "../../datasets/derm12345/DERM_188685.jpg",
+    "response": "melanocytic malignant - melanoma - melanoma - mel\n",
+    "super_class_pred": "melanocytic malignant",
+    "super_class_true": "nonmelanocytic malignant",
+    "main_class_pred": "melanocytic malignant - melanoma",
+    "main_class_true": "nonmelanocytic malignant - keratinocytic",
+    "label_pred": "mel",
+    "label_true": "scc"
+}

@@ -9,7 +9,7 @@ LOGGER = logging.getLogger(__name__)
 
 
 class GeminiAPIHandler:
-    def __init__(self, api_key, model_name="gemini-2.0-flash-exp"):
+    def __init__(self, api_key, index, model_name="gemini-2.0-flash-exp"):
         """
         Initialize the Gemini API Client.
 
@@ -19,6 +19,7 @@ class GeminiAPIHandler:
         """
         self.api_key = api_key
         self.client = genai.Client(api_key=api_key)
+        self.index = index
         self.model = model_name
 
     def generate_text(self, prompt):

@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_405354",
+    "image_path": "../../datasets/derm12345/DERM_405354.jpg",
+    "response": "melanocytic benign - dysplastic compound - compound nevus - cd\n",
+    "super_class_pred": "melanocytic benign",
+    "super_class_true": "nonmelanocytic benign",
+    "main_class_pred": "melanocytic benign - dysplastic compound",
+    "main_class_true": "nonmelanocytic benign - vascular",
+    "label_pred": "cd",
+    "label_true": "angk"
+}

@@ -1,0 +1,5 @@
+Class,Sensitivity,Specificity
+melanocytic benign - dysplastic junctional,0.0,1.0
+ajd,0.0,1.0
+srjd,0.0,1.0
+jd,0.0,1.0

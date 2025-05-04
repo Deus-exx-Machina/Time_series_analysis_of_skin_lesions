@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_999985",
+    "image_path": "../../datasets/derm12345/DERM_999985.jpg",
+    "response": "nonmelanocytic malignant - keratinocytic - squamous cell carcinoma - scc\n",
+    "super_class_pred": "nonmelanocytic malignant",
+    "super_class_true": "nonmelanocytic malignant",
+    "main_class_pred": "nonmelanocytic malignant - keratinocytic",
+    "main_class_true": "nonmelanocytic malignant - keratinocytic",
+    "label_pred": "scc",
+    "label_true": "bcc"
+}

@@ -1,0 +1,7 @@
+Class,Sensitivity,Specificity
+melanocytic malignant - melanoma,0.17073170731707318,0.9848993288590604
+alm,0.0,1.0
+anm,0.0,1.0
+lm,0.0,1.0
+lmm,0.0,1.0
+mel,0.1935483870967742,0.982011447260834

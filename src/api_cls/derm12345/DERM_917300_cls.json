@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_917300",
+    "image_path": "../../datasets/derm12345/DERM_917300.jpg",
+    "response": "nonmelanocytic benign - keratinocytic - lichenoid keratosis - lk\n",
+    "super_class_pred": "nonmelanocytic benign",
+    "super_class_true": "melanocytic benign",
+    "main_class_pred": "nonmelanocytic benign - keratinocytic",
+    "main_class_true": "melanocytic benign - banal junctional",
+    "label_pred": "lk",
+    "label_true": "ajb"
+}

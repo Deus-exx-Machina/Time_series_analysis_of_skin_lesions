@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_608869",
+    "image_path": "../../datasets/derm12345/DERM_608869.jpg",
+    "response": "nonmelanocytic benign - vascular - dilated pore of winer - unknow\n",
+    "super_class_pred": "nonmelanocytic benign",
+    "super_class_true": "melanocytic benign",
+    "main_class_pred": "nonmelanocytic benign - vascular",
+    "main_class_true": "melanocytic benign - banal dermal",
+    "label_pred": "unknow",
+    "label_true": "bdb"
+}

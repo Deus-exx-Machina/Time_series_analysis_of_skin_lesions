@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_683061",
+    "image_path": "../../datasets/derm12345/DERM_683061.jpg",
+    "response": "nonmelanocytic malignant - keratinocytic - basal cell carcinoma - bcc\n",
+    "super_class_pred": "nonmelanocytic malignant",
+    "super_class_true": "nonmelanocytic malignant",
+    "main_class_pred": "nonmelanocytic malignant - keratinocytic",
+    "main_class_true": "nonmelanocytic malignant - keratinocytic",
+    "label_pred": "bcc",
+    "label_true": "scc"
+}

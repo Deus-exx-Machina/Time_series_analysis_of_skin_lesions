@@ -1,0 +1,9 @@
+Class,Sensitivity,Specificity
+melanocytic benign,0.9499752352649826,0.5268817204301075
+melanocytic benign - banal compound,0.8372093023255814,0.23087369850611136
+melanocytic benign - banal dermal,0.07534246575342465,0.9974215728405672
+melanocytic benign - banal junctional,0.011204481792717087,0.9957426679280984
+melanocytic benign - lentigo,0.05263157894736842,0.9570903146710258
+melanocytic benign - dysplastic compound,0.13513513513513514,0.9698513800424629
+melanocytic benign - dysplastic junctional,0.0,1.0
+melanocytic benign - dysplastic recurrent,0.0,1.0

@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_334869",
+    "image_path": "../../datasets/derm12345/DERM_334869.jpg",
+    "response": "nonmelanocytic benign - vascular - hemangioma - ha\n",
+    "super_class_pred": "nonmelanocytic benign",
+    "super_class_true": "melanocytic benign",
+    "main_class_pred": "nonmelanocytic benign - vascular",
+    "main_class_true": "melanocytic benign - banal dermal",
+    "label_pred": "ha",
+    "label_true": "db"
+}

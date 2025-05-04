@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_826937",
+    "image_path": "../../datasets/derm12345/DERM_826937.jpg",
+    "response": "nonmelanocytic benign - keratinocytic - seborrheic keratosis - sk\n",
+    "super_class_pred": "nonmelanocytic benign",
+    "super_class_true": "nonmelanocytic benign",
+    "main_class_pred": "nonmelanocytic benign - keratinocytic",
+    "main_class_true": "nonmelanocytic benign - keratinocytic",
+    "label_pred": "sk",
+    "label_true": "sk"
+}

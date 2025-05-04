@@ -244,8 +244,9 @@ def generate_prompts_dataset(
             )
             '''
             image_path = os.path.join(
-                dataset_path, (row["image_id"])
+                dataset_path, (row["image_id"] + ".jpg")
             )
+            
             
 
         elif dataset == "bcn20000":

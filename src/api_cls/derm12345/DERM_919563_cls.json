@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_919563",
+    "image_path": "../../datasets/derm12345/DERM_919563.jpg",
+    "response": "melanocytic benign - banal dermal - dermal nevus - db\n",
+    "super_class_pred": "melanocytic benign",
+    "super_class_true": "melanocytic benign",
+    "main_class_pred": "melanocytic benign - banal dermal",
+    "main_class_true": "melanocytic benign - dysplastic compound",
+    "label_pred": "db",
+    "label_true": "cd"
+}

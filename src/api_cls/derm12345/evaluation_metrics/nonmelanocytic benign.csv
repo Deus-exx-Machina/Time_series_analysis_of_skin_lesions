@@ -1,0 +1,4 @@
+Class,Sensitivity,Specificity
+nonmelanocytic benign,0.38425925925925924,0.916445623342175
+nonmelanocytic benign - keratinocytic,0.14634146341463414,0.969270166453265
+nonmelanocytic benign - vascular,0.8771929824561403,0.9497716894977168

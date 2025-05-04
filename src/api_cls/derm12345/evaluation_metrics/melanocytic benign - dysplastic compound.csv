@@ -1,0 +1,5 @@
+Class,Sensitivity,Specificity
+melanocytic benign - dysplastic compound,0.13513513513513514,0.9698513800424629
+acd,0.0,1.0
+ccd,0.0,1.0
+cd,0.12745098039215685,0.9692631578947368

@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_858673",
+    "image_path": "../../datasets/derm12345/DERM_858673.jpg",
+    "response": "melanocytic benign - banal junctional - acral - ajb\n",
+    "super_class_pred": "melanocytic benign",
+    "super_class_true": "nonmelanocytic malignant",
+    "main_class_pred": "melanocytic benign - banal junctional",
+    "main_class_true": "nonmelanocytic malignant - keratinocytic",
+    "label_pred": "ajb",
+    "label_true": "bd"
+}

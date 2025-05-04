@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_843650",
+    "image_path": "../../datasets/derm12345/DERM_843650.jpg",
+    "response": "nonmelanocytic indeterminate - keratinocytic - actinic keratosis - ak\n",
+    "super_class_pred": "nonmelanocytic indeterminate",
+    "super_class_true": "nonmelanocytic benign",
+    "main_class_pred": "nonmelanocytic indeterminate - keratinocytic",
+    "main_class_true": "nonmelanocytic benign - keratinocytic",
+    "label_pred": "ak",
+    "label_true": "sk"
+}

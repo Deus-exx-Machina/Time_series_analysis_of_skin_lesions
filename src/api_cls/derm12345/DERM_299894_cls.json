@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_299894",
+    "image_path": "../../datasets/derm12345/DERM_299894.jpg",
+    "response": "nonmelanocytic benign - fibro-histiocytic - dermatofibroma - df\n",
+    "super_class_pred": "nonmelanocytic benign",
+    "super_class_true": "nonmelanocytic benign",
+    "main_class_pred": "nonmelanocytic benign - fibro-histiocytic",
+    "main_class_true": "nonmelanocytic benign - fibro_histiocytic",
+    "label_pred": "df",
+    "label_true": "df"
+}

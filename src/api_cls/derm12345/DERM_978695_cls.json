@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_978695",
+    "image_path": "../../datasets/derm12345/DERM_978695.jpg",
+    "response": "nonmelanocytic benign - vascular - angiokeratoma - angk\n",
+    "super_class_pred": "nonmelanocytic benign",
+    "super_class_true": "nonmelanocytic malignant",
+    "main_class_pred": "nonmelanocytic benign - vascular",
+    "main_class_true": "nonmelanocytic malignant - fibro_histiocytic",
+    "label_pred": "angk",
+    "label_true": "dfsp"
+}

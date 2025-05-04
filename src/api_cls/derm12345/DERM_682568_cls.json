@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_682568",
+    "image_path": "../../datasets/derm12345/DERM_682568.jpg",
+    "response": "melanocytic benign - banal dermal - blue - bdb\n",
+    "super_class_pred": "melanocytic benign",
+    "super_class_true": "melanocytic benign",
+    "main_class_pred": "melanocytic benign - banal dermal",
+    "main_class_true": "melanocytic benign - banal dermal",
+    "label_pred": "bdb",
+    "label_true": "bdb"
+}

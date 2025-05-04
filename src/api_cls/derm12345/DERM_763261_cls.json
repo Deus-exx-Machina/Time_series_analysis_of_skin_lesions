@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_763261",
+    "image_path": "../../datasets/derm12345/DERM_763261.jpg",
+    "response": "melanocytic benign - dysplastic compound - compound nevus - cd\n",
+    "super_class_pred": "melanocytic benign",
+    "super_class_true": "nonmelanocytic malignant",
+    "main_class_pred": "melanocytic benign - dysplastic compound",
+    "main_class_true": "nonmelanocytic malignant - keratinocytic",
+    "label_pred": "cd",
+    "label_true": "bcc"
+}

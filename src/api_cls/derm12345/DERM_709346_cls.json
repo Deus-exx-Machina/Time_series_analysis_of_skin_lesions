@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_709346",
+    "image_path": "../../datasets/derm12345/DERM_709346.jpg",
+    "response": "nonmelanocytic benign - vascular - pyogenic granuloma - pg\n",
+    "super_class_pred": "nonmelanocytic benign",
+    "super_class_true": "melanocytic benign",
+    "main_class_pred": "nonmelanocytic benign - vascular",
+    "main_class_true": "melanocytic benign - banal compound",
+    "label_pred": "pg",
+    "label_true": "cb"
+}

@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_246292",
+    "image_path": "../../datasets/derm12345/DERM_246292.jpg",
+    "response": "melanocytic benign - lentigo - solar lentigo - sl\n",
+    "super_class_pred": "melanocytic benign",
+    "super_class_true": "melanocytic benign",
+    "main_class_pred": "melanocytic benign - lentigo",
+    "main_class_true": "melanocytic benign - banal junctional",
+    "label_pred": "sl",
+    "label_true": "ajb"
+}

@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_618270",
+    "image_path": "../../datasets/derm12345/DERM_618270.jpg",
+    "response": "nonmelanocytic benign - vascular - spider angioma - sa\n",
+    "super_class_pred": "nonmelanocytic benign",
+    "super_class_true": "nonmelanocytic indeterminate",
+    "main_class_pred": "nonmelanocytic benign - vascular",
+    "main_class_true": "nonmelanocytic indeterminate - keratinocytic",
+    "label_pred": "sa",
+    "label_true": "ak"
+}

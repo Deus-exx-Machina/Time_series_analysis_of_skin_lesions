@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_773653",
+    "image_path": "../../datasets/derm12345/DERM_773653.jpg",
+    "response": "unknown - unkown - unknown - unknown\n",
+    "super_class_pred": "unknown",
+    "super_class_true": "melanocytic benign",
+    "main_class_pred": "unknown - unkown",
+    "main_class_true": "melanocytic benign - banal dermal",
+    "label_pred": "unknown",
+    "label_true": "bdb"
+}

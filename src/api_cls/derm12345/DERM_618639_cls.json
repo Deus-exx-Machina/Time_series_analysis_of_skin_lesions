@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_618639",
+    "image_path": "../../datasets/derm12345/DERM_618639.jpg",
+    "response": "nonmelanocytic benign - fibro-histiocytic - dermatofibroma - df\n",
+    "super_class_pred": "nonmelanocytic benign",
+    "super_class_true": "melanocytic benign",
+    "main_class_pred": "nonmelanocytic benign - fibro-histiocytic",
+    "main_class_true": "melanocytic benign - banal junctional",
+    "label_pred": "df",
+    "label_true": "ajb"
+}

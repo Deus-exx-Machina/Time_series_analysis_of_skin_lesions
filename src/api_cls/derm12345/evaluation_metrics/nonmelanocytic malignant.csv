@@ -1,0 +1,4 @@
+Class,Sensitivity,Specificity
+nonmelanocytic malignant,0.08280254777070063,0.9995693367786391
+nonmelanocytic malignant - keratinocytic,0.08552631578947369,0.9995682210708118
+nonmelanocytic malignant - vascular,0.0,1.0

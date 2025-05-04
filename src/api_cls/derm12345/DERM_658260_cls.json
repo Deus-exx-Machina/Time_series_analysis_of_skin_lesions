@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_658260",
+    "image_path": "../../datasets/derm12345/DERM_658260.jpg",
+    "response": "nonmelanocytic benign - keratinocytic - lichenoid keratosis - lk\n",
+    "super_class_pred": "nonmelanocytic benign",
+    "super_class_true": "nonmelanocytic benign",
+    "main_class_pred": "nonmelanocytic benign - keratinocytic",
+    "main_class_true": "nonmelanocytic benign - fibro_histiocytic",
+    "label_pred": "lk",
+    "label_true": "df"
+}

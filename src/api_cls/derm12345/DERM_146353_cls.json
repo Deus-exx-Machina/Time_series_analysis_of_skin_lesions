@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_146353",
+    "image_path": "../../datasets/derm12345/DERM_146353.jpg",
+    "response": "unknown - unkown - unknown - unknown\n",
+    "super_class_pred": "unknown",
+    "super_class_true": "melanocytic benign",
+    "main_class_pred": "unknown - unkown",
+    "main_class_true": "melanocytic benign - banal junctional",
+    "label_pred": "unknown",
+    "label_true": "ajb"
+}

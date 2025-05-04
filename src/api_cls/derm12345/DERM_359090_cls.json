@@ -1,0 +1,11 @@
+{
+    "image_id": "DERM_359090",
+    "image_path": "../../datasets/derm12345/DERM_359090.jpg",
+    "response": "melanocytic malignant - melanoma - melanoma - mel\n",
+    "super_class_pred": "melanocytic malignant",
+    "super_class_true": "melanocytic benign",
+    "main_class_pred": "melanocytic malignant - melanoma",
+    "main_class_true": "melanocytic benign - dysplastic junctional",
+    "label_pred": "mel",
+    "label_true": "ajd"
+}
